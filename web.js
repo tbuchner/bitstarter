@@ -12,8 +12,6 @@ try {
   data=e;
 }
 
-//var content = buf.toString("utf8",0,buf.length); 
-
 app.get('/', function(request, response) {
   response.send(data);
 });
