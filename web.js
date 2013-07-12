@@ -7,6 +7,8 @@ var fs = require('fs');
 
 //buf = fs.readFileSync('index.html');
 
+var data = "Test";
+
 fs.readFileSync('index.html', function (err, data) {
   if (err) throw err;
   console.log(data);
