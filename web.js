@@ -9,10 +9,10 @@ var fs = require('fs');
 
 var data = "Test";
 
-fs.readFileSync('index.html', function (err, data) {
-  if (err) throw err;
-  console.log(data);
-});
+//fs.readFileSync('index.html', function (err, data) {
+//  if (err) throw err;
+//  console.log(data);
+//});
 
 
 //var content = buf.toString("utf8",0,buf.length); 
