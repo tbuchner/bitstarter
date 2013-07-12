@@ -9,21 +9,12 @@ var fs = require('fs');
 
 //var data = fs.readFileSync('index.html');
 try {
-  var data = fs.readFileSync('index.html');
+  var data = fs.readFileSync('~/bitstarter/index.html');
 } catch (e) {
   // Here you get the error when the file was not found,
   // but you also get any other error
   data=e;
 }
-
-
-//var data = "Test";
-
-//fs.readFileSync('index.html', function (err, data) {
-//  if (err) throw err;
-//  console.log(data);
-//});
-
 
 //var content = buf.toString("utf8",0,buf.length); 
 
