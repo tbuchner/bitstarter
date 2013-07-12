@@ -3,13 +3,9 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 var fs = require('fs');
-//var buf = new buffer(100); 
 
-//buf = fs.readFileSync('index.html');
-
-//var data = fs.readFileSync('index.html');
 try {
-  var data = fs.readFileSync('index.html');
+  var data = fs.readFileSync('index.html',"utf8");
 } catch (e) {
   // Here you get the error when the file was not found,
   // but you also get any other error
